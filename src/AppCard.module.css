@@ -1,7 +1,7 @@
 .card{
-  border: solid 1px yellow;
+  border: solid 1px var(--card-secondary);
   border-radius: 10px;
-  background-color: rgb(6, 6, 6);
+  background-color: var(--card-primary);
   color: white;
   margin: 20px 10px 20px;
   width: 500px;
