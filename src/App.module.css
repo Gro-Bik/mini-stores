@@ -20,23 +20,3 @@ header {
   padding: 0 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
-
-
-.header-contet {
-  text-align: center;
-  color: black;
-}
-
-
-.header-content h1 {
-  margin: 0;
-  color: black;
-  font-size: 24px;
-}
-
-.header-content p {
-  margin: 5px 0 0;
-  color: black;
-  font-size: 14px;
-}
