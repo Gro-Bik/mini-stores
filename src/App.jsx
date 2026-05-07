@@ -5,12 +5,16 @@ import {AppCard} from './AppCard'
 export default function App() {
   return (
     <>
-      <h1 className={styles.header}><img width="100"src="../IMG/Micke_Icon.png"></img>Micke Shop</h1>
+    <header id='header'>
+      <h2  className={styles.header}><img width="50" src="../IMG/Micke_Icon.png"></img>Micke Shop</h2>
+      </header>
+      
       <main>
         {[
           {title: 'Футболка Кага', text: 'Футболка с персонажем Кага из Kancolle', date: '27.04', price: '1500₽'}, 
           {title: 'Кепка Эллиса', text: 'Кепка Эллиса из Left 4 Dead 2', date: '28.04', price: '975₽'}, 
-          {title: 'Фигурка Шируи', text: 'Фигурка Шируи из Kancolle', date: '29.04'}
+          {title: 'Фигурка Шируи', text: 'Фигурка Шируи из Kancolle', date: '29.04', price: '15000₽'},
+          {title: '', text: 'Фигурка Шируи из Kancolle', date: '29.04', price: '15000₽'}
         ].map(({title, text, date}) => (
           <AppCard 
             title={title}
