@@ -10,9 +10,13 @@ header {
   align-items: center;
   padding: 0 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+<<<<<<< HEAD
 }
 
 main{
   display: flex;
   flex-wrap: wrap;
 }
+=======
+}
+>>>>>>> 8986809f281a8c49f0e33464fdd41f2cc196a8c0
