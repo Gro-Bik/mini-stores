@@ -32,3 +32,69 @@ body {
 }
 
 
+
+.filterSection {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+  padding: 15px;
+  background-color: var(--card-primary);
+  border-radius: 15px;
+  border: solid 1px var(--card-secondary);
+}
+
+
+.searchInput {
+  width: 300px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid var(--card-secondary);
+  border-radius: 25px;
+  background-color: white;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.searchInput:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.searchInput::placeholder {
+  color: #999;
+}
+
+
+.filterSelect {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid var(--card-secondary);
+  border-radius: 25px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.filterSelect:hover {
+  border-color: #4CAF50;
+}
+
+
+.noResults {
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: var(--card-primary);
+  margin: 50px auto;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.noResults p:first-child {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
