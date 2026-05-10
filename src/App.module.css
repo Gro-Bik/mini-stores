@@ -16,3 +16,19 @@ main{
   display: flex;
   flex-wrap: wrap;
 }
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+  margin: 0;
+  font-family: sans-serif; 
+}
+
+

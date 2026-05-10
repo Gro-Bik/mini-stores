@@ -13,14 +13,25 @@ export default function App() {
     </header>
       
       <main>
-        {apps.map(({title, text, date}) => (
+        {apps.map(({title, text, date, price, img}) => (
           <AppCard 
             title={title}
             text={text}
             date={date}
+            price={price}
+            img={img}
           />
         ))}
       </main>
+             
+    
+      <footer>
+        <h3>©Kaga Corp. "Все права защещены 2021-2026"</h3>
+        <div>О нас | Контакты</div>
+                <div>
+                    <a href="#">Политика конфиденциальности и Условия использования</a>
+                </div>
+      </footer>
     </>
   );
 }
