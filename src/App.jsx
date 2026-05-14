@@ -40,7 +40,7 @@ export default function App() {
       <div className={styles.filterSection}>
         <input 
           type="text"
-          placeholder="Поиск товаров..."
+          placeholder="Поиск товаров"
           className={styles.searchInput}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
