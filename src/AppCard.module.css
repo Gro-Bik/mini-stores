@@ -10,12 +10,15 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-image: url("../IMG/acetone-2026518-14454-361.png");
 }
 
 
 .productImage {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 240px;
   object-fit: cover;
   border-radius: 8px;
+  border: solid;
+  border-color: darkgray;
 }

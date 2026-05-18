@@ -32,8 +32,7 @@ export default function App() {
   return (
     <>
       <header>
-        <img width="50" src="../IMG/Micke_Icon.png" alt="Logo"></img>
-        <h2>Micke Shop</h2>
+        <img width="100" src="../IMG/NITORI_ICON2.png" alt="Logo"></img>
       </header>
 
      
