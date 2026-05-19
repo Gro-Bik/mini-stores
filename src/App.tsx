@@ -16,7 +16,7 @@ export default function App() {
     
    
     let matchesPrice = true
-    const priceNum = parseInt(app.price.replace('₽', '').replace(' ', ''))
+    const priceNum = app.price
     
     if (filterPrice === 'under1000') {
       matchesPrice = priceNum < 1000
